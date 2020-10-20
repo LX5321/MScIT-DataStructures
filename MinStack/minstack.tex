@@ -1,0 +1,29 @@
+\section{Stack with Minimum Element}
+Date: \texttt{21-09-2020}
+
+\subsection{Problem Statement}
+Design a stack to add new function \mintinline{cpp}|GetMinimum()|, which retrieves minimum
+number from stack in $O(1)$.
+
+\subsection{Input}
+\begin{itemize}
+\item First line of input contains an intger $T$ denoting count of the numbers.
+\item Next $T$ lines of input contains a integer number $S$.
+\end{itemize}
+
+\subsection{Conditions}
+\begin{itemize}
+\item $1 \leq T \leq 10$
+\item $1 \leq |S| \leq 10^{5}$
+\end{itemize}
+
+\newpage
+\subsection{Source Code}
+
+\subsubsection{main.cpp}
+\inputminted[breaklines, linenos]{cpp}{MinStack/main.cpp} 
+\subsubsection{minStack.hpp}
+\inputminted[breaklines, linenos]{cpp}{MinStack/minStack.h}
+
+\subsection{Output}
+\inputminted[breaklines, linenos]{text}{MinStack/analysis.log}
